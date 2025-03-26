@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeianRussell/Kavo-UI-Library/main/Movable.source.lua"))()
 local Window = Library.CreateLib("Discord Script", "BloodTheme")
 local Tab = Window:NewTab("Script")
 local Section = Tab:NewSection("Script")
