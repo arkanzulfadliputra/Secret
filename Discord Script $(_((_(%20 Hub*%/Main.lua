@@ -1,9 +1,6 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Discord Script", "BloodTheme")
-
 local Tab = Window:NewTab("Script")
-
 local Section = Tab:NewSection("Script")
 
 Section:NewButton("By Depth And Anzor", "ButtonInfo", function()
