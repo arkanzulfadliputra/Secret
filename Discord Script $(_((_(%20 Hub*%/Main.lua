@@ -42,7 +42,7 @@ end)
 
 Section:NewButton("Script Mode Kavo", "ButtonInfo", function()
     print("Executed")
-loadstring(game:HttpGet("https://pastebin.com/raw/DUzyW4GH"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ZV5UbDe3"))()
 end)
 
 Section:NewButton("Script Mode V5", "ButtonInfo", function()
