@@ -89,7 +89,20 @@ Section:NewButton("Screech Tool", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/Items/Screech%20Tool.lua"))()
 end)
 
+Section:NewButton("Guiding Candle", "ButtonInfo", function()
+    print("Executed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/guidingcandle.lua"))()
+end)
 
+Section:NewButton("Curious Candle", "ButtonInfo", function()
+    print("Executed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/curiouscandle.lua"))()
+end)
+
+Section:NewButton("Mischievous Candle", "ButtonInfo", function()
+    print("Executed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/mischievouscandle.lua"))()
+end)
 
 local Tab = Window:NewTab("Entities Spawner")
 
@@ -406,6 +419,14 @@ end
  
 -- Run the created entity
 Creator.runEntity(entity)
+end)
+
+local Tab = Window:NewTab("Modes")
+
+local Section = Tab:NewSection("Modes")
+
+Section:NewButton("Coming soon", "ButtonInfo", function()
+    print("Executed")
 end)
 
 local ScreenGui = Instance.new("ScreenGui")
