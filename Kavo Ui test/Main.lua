@@ -109,9 +109,3 @@ end)
         print("Toggle Off")
     end
 end)
-
-local DragFrame = game.CoreGui:FindFirstChild("KavoUI"):FindFirstChildOfClass("Frame")
-if DragFrame then
-    DragFrame.Active = true
-    DragFrame.Draggable = true -- Allows the UI to be moved
-end
