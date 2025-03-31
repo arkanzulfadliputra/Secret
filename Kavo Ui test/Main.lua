@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/arkanzulfadliputra/Secret/refs/heads/main/Kavo%20Ui%20Dragging%20Moveable/Source.lua"))()
 local Window = Library.CreateLib("Tung rung tung sahur Tower", "DarkTheme")
 local Tab = Window:NewTab("Player")
 local Section = Tab:NewSection("Script Player")
